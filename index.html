@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="css/img/facebook.png"> 
+    <title>Facebook - log in </title>
+    <!-- font awesome 6 -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- bootstrap 5 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+   <div class="container">
+    <section class="login ">
+      <div class="row content">
+      <div class="col-7  logo ps-10 md-col-6 ">
+        <img src="css/img/facebook.svg" alt="face" width="470px" height="100px" class="me-80px hh" >
+        <p id="fp">Facebook helps you connect and share with the people in your life.</p>
+
+      </div>
+      <div class="col-5 forms md-col-12">
+        <form>
+          <div class="mb-3">
+            
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email address or phone number" >
+          
+          </div>
+          <div class="mb-3">
+           
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+         
+        
+          
+         <a href="https://en-gb.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0"  >forgotten password ?</a>
+       
+ <div class="d-grid gap-3 col mx-auto pt-4 ">
+  <!-- Button trigger modal -->
+<button type="button" onclick="myOnClickFn()" class="btn btn-primary col-12 mx-auto "  >
+  
+ Log In
+</button>
+
+  <hr>
+
+ <button  class="btn  green col-7 p-3 mx-auto " data-bs-toggle="modal" data-bs-target="#exampleModal"  type="button">Create New Account</button>
+  
+           
+          </div>
+          
+        </form>
+        
+      </div>
+    
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title " id="exampleModalLabel" >Sign Up</h5>
+       
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body"> 
+        <p>It's quick and easy.</p>
+        <form class="row g-3">
+          <div class="col-md-6">
+           
+            <input type="text" class="form-control" id="inputEmail4" placeholder="First name" required>
+          </div>
+          <div class="col-md-6">
+           
+            <input type="text" class="form-control" id="inputPassword4"  placeholder="Last name" required>
+          </div>
+          <div class="col-12">
+        
+            <input type="email" class="form-control" id="inputAddress" placeholder="Mobile number or email address" required>
+          </div>
+          <div class="col-12">
+            <input type="password" class="form-control" id="inputAddress2" placeholder="password" required>
+          </div>
+           <label for="inputState" class="form-label">Date of Birth ?</label>
+          <div class="col-md-4">
+           
+            <select id="inputState" class="form-select" required>
+            
+              <option selected>1</option>
+              <option>2</option>
+              <option>3</option><option>4</option><option>5</option><option>6</option><option>7</option> <option>8</option> <option>9</option> <option>10</option> 
+              <option>11</option> <option>12</option><option>13</option><option>14</option><option>15</option><option>16</option>
+              <option>17</option> <option>18</option> <option>19</option> <option>20</option> <option>21</option> <option>22</option>
+              <option>23</option><option>24</option><option>25</option><option>26</option><option>27</option> <option>28</option> <option>29</option> 
+              <option>30</option> <option>31</option> 
+            </select>
+
+          </div>
+          <div class="col-md-4">
+            
+            <select id="inputState" class="form-select">
+              <option>Jan</option>
+              <option>Feb</option><option>Mar</option><option>April</option><option>May</option><option>jon</option> <option>july</option> <option>oug</option> <option>Sep</option> 
+              <option>Oct</option> <option>Nov</option><option>Dec</option>
+            </select>
+
+          </div>
+          <div class="col-md-4">
+            
+            <select id="inputState" class="form-select">
+              <option>1970</option>
+              <option>1971</option><option>1980</option><option>1981</option><option>1982</option><option>1983</option> <option>1984</option> <option>1985</option> <option>1986</option> 
+              <option>1987</option> <option>1988</option><option>1989</option><option>1990</option><option>1991</option><option>1992</option>
+              <option>1993</option><option>1994</option><option>1995</option><option>1996</option><option>1997</option><option>1998</option>
+            </select>
+
+          </div>
+        
+          <div class="form-check form-check-inline col-md-3">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">Female</label>
+          </div>
+          <div class="form-check form-check-inline col-md-3">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Male</label>
+          </div>
+
+           <div class="form-check form-check-inline col-md-3">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Custom</label>
+          </div>
+         
+        </form>
+
+      </div>
+      <div class="modal-footer">
+        <div class="pf">
+          <p>People who use our service may have uploaded your contact information to Facebook. Learn more.</p>
+          <p>By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS notifications from us and can opt out at any time.</p>
+        </div>
+        <div class="col-8">
+          <button type="submit" class="btn btn-success col-7 ">Sign in</button>
+        </div>
+       
+      </div>
+    </div>
+
+
+  </div>
+</div>
+    </div>
+  
+  
+  <p class="create "><a href="https://en-gb.facebook.com/pages/create/?ref_type=registration_form">Create a Page </a>for a celebrity, brand or business. </p>
+  </section>
+  </div>
+</header>
+  <footer class="footer">
+    <div class="container">
+<div class="end"><p> English (UK)
+      <a href="#"> العربية</a> <a href="#">Français (France)
+      </a> <a href="#">
+        Deutsch
+        </a> <a href="#">Bahasa Indonesia
+        </a> <a href="#">Español
+        </a> <a href="#">Português (Brasil)
+        </a> <a href="#">हिन्दी
+        </a>  </p>
+        <hr>
+        <p><a href="#">
+          Sign Up
+          </a> <a href="#">log In
+          </a> <a href="#">Messenger
+          </a> <a href="#">Facebook Lite
+          </a> <a href="#">wath
+          </a>  <a href="#">
+            Marketplace
+            </a> <a href="#">Game
+            </a> <a href="#">Facebook Pay
+            </a> <a href="#">Voting Information Centre
+            </a> <a href="#">Contact uploading and non-usersSettings
+            </a>  
+        </p>
+      </div>
+    </div>
+  </footer>
+    
+ 
+    <!-- bootstrap 5 -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+      function myOnClickFn(){
+    document.location.href="Home.html";
+      }
+    </script>
+  </body>
+</html>
